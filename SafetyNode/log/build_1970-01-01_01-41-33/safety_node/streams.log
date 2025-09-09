@@ -1,0 +1,60 @@
+[0.022s] Invoking command in '/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/build/safety_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/f1tenth_lab2_template/safety_node -DCMAKE_INSTALL_PREFIX=/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node
+[0.131s] -- The C compiler identification is GNU 9.4.0
+[0.225s] -- The CXX compiler identification is GNU 9.4.0
+[0.233s] -- Check for working C compiler: /usr/bin/cc
+[0.365s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.367s] -- Detecting C compiler ABI info
+[0.502s] -- Detecting C compiler ABI info - done
+[0.536s] -- Detecting C compile features
+[0.537s] -- Detecting C compile features - done
+[0.542s] -- Check for working CXX compiler: /usr/bin/c++
+[0.692s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.695s] -- Detecting CXX compiler ABI info
+[0.844s] -- Detecting CXX compiler ABI info - done
+[0.882s] -- Detecting CXX compile features
+[0.882s] -- Detecting CXX compile features - done
+[0.887s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.935s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.936s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.372s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.454s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.465s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.612s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.671s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.824s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.931s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.934s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.936s] -- Looking for pthread.h
+[2.075s] -- Looking for pthread.h - found
+[2.075s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.216s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.216s] -- Looking for pthread_create in pthreads
+[2.345s] -- Looking for pthread_create in pthreads - not found
+[2.348s] -- Looking for pthread_create in pthread
+[2.491s] -- Looking for pthread_create in pthread - found
+[2.495s] -- Found Threads: TRUE  
+[2.797s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[2.799s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[3.015s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[3.080s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.232s] CMake Error at CMakeLists.txt:25 (find_package):
+[3.233s]   By not providing "Findvesc_msgs.cmake" in CMAKE_MODULE_PATH this project
+[3.233s]   has asked CMake to find a package configuration file provided by
+[3.233s]   "vesc_msgs", but CMake did not find one.
+[3.233s] 
+[3.234s]   Could not find a package configuration file provided by "vesc_msgs" with
+[3.234s]   any of the following names:
+[3.234s] 
+[3.234s]     vesc_msgsConfig.cmake
+[3.234s]     vesc_msgs-config.cmake
+[3.235s] 
+[3.235s]   Add the installation prefix of "vesc_msgs" to CMAKE_PREFIX_PATH or set
+[3.235s]   "vesc_msgs_DIR" to a directory containing one of the above files.  If
+[3.235s]   "vesc_msgs" provides a separate development package or SDK, be sure it has
+[3.236s]   been installed.
+[3.236s] 
+[3.236s] 
+[3.236s] -- Configuring incomplete, errors occurred!
+[3.237s] See also "/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/build/safety_node/CMakeFiles/CMakeOutput.log".
+[3.237s] See also "/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/build/safety_node/CMakeFiles/CMakeError.log".
+[3.258s] Invoked command in '/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/build/safety_node' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/f1tenth_lab2_template/safety_node -DCMAKE_INSTALL_PREFIX=/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node

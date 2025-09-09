@@ -1,0 +1,69 @@
+[0.035s] Invoking command in '/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/build/safety_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/f1tenth_ws/install/f1tenth_stack:/home/orin/f1tenth_ws/install/joy_teleop:/home/orin/f1tenth_ws/install/mouse_teleop:/home/orin/f1tenth_ws/install/key_teleop:/opt/ros/foxy NX_CONNECTION=192.168.156.102 37418 192.168.156.253 4000 /usr/bin/cmake --build /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/build/safety_node -- -j6 -l6
+[0.120s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.176s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.617s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.700s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.707s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.972s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.073s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.077s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.351s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[1.352s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.561s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[1.623s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.755s] -- Found vesc_msgs: 1.2.0 (/home/orin/f1tenth_ws/install/vesc_msgs/share/vesc_msgs/cmake)
+[1.912s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.061s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.093s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.094s] -- Configured cppcheck include dirs: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/f1tenth_lab2_template/safety_node/include
+[2.094s] -- Configured cppcheck exclude dirs and/or files: 
+[2.124s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.125s] -- Configured cpplint exclude dirs and/or files: 
+[2.129s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.137s] -- Added test 'lint_cmake' to check CMake code style
+[2.142s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.175s] -- Added test 'uncrustify' to check C / C++ code style
+[2.176s] -- Configured uncrustify additional arguments: 
+[2.179s] -- Added test 'xmllint' to check XML markup files
+[2.187s] -- Configuring done
+[2.210s] -- Generating done
+[2.221s] -- Build files have been written to: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/build/safety_node
+[2.300s] [35m[1mScanning dependencies of target safety_node[0m
+[2.384s] [ 50%] [32mBuilding CXX object CMakeFiles/safety_node.dir/src/safety_node.cpp.o[0m
+[5.379s] [01m[K/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/f1tenth_lab2_template/safety_node/src/safety_node.cpp:[m[K In member function ‘[01m[Kvoid Safety::drive_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[5.379s] [01m[K/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/f1tenth_lab2_template/safety_node/src/safety_node.cpp:49:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.379s]    49 |     void drive_callback([01;35m[Kconst nav_msgs::msg::Odometry::ConstSharedPtr msg[m[K)
+[5.379s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.402s] [01m[K/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/f1tenth_lab2_template/safety_node/src/safety_node.cpp:[m[K In member function ‘[01m[Kvoid Safety::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[5.402s] [01m[K/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/f1tenth_lab2_template/safety_node/src/safety_node.cpp:58:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmin_distance[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[5.402s]    58 |         double [01;35m[Kmin_distance[m[K = scan_msg->range_max;
+[5.402s]       |                [01;35m[K^~~~~~~~~~~~[m[K
+[16.632s] [100%] [32m[1mLinking CXX executable safety_node[0m
+[17.273s] [100%] Built target safety_node
+[17.299s] Invoked command in '/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/build/safety_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/f1tenth_ws/install/f1tenth_stack:/home/orin/f1tenth_ws/install/joy_teleop:/home/orin/f1tenth_ws/install/mouse_teleop:/home/orin/f1tenth_ws/install/key_teleop:/opt/ros/foxy NX_CONNECTION=192.168.156.102 37418 192.168.156.253 4000 /usr/bin/cmake --build /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/build/safety_node -- -j6 -l6
+[17.330s] Invoking command in '/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/build/safety_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/f1tenth_ws/install/f1tenth_stack:/home/orin/f1tenth_ws/install/joy_teleop:/home/orin/f1tenth_ws/install/mouse_teleop:/home/orin/f1tenth_ws/install/key_teleop:/opt/ros/foxy NX_CONNECTION=192.168.156.102 37418 192.168.156.253 4000 /usr/bin/cmake --install /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/build/safety_node
+[17.351s] -- Install configuration: ""
+[17.351s] -- Installing: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/lib/safety_node/safety_node
+[17.362s] -- Set runtime path of "/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/lib/safety_node/safety_node" to ""
+[17.362s] -- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/environment/pythonpath.sh
+[17.362s] -- Installing: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/environment/pythonpath.dsv
+[17.362s] -- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/lib/python3.8/site-packages/safety_node
+[17.362s] -- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/lib/python3.8/site-packages/safety_node/__init__.py
+[17.425s] Listing '/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/lib/python3.8/site-packages/safety_node'...
+[17.433s] -- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/lib/safety_node/safety_node.py
+[17.434s] -- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/ament_index/resource_index/package_run_dependencies/safety_node
+[17.434s] -- Installing: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/ament_index/resource_index/parent_prefix_path/safety_node
+[17.434s] -- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/environment/ament_prefix_path.sh
+[17.435s] -- Installing: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/environment/ament_prefix_path.dsv
+[17.435s] -- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/environment/path.sh
+[17.436s] -- Installing: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/environment/path.dsv
+[17.436s] -- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/local_setup.bash
+[17.437s] -- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/local_setup.sh
+[17.437s] -- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/local_setup.zsh
+[17.437s] -- Installing: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/local_setup.dsv
+[17.438s] -- Installing: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/package.dsv
+[17.438s] -- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/ament_index/resource_index/packages/safety_node
+[17.438s] -- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/cmake/safety_nodeConfig.cmake
+[17.438s] -- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/cmake/safety_nodeConfig-version.cmake
+[17.439s] -- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/package.xml
+[17.444s] Invoked command in '/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/build/safety_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orin/f1tenth_ws/install/f1tenth_stack:/home/orin/f1tenth_ws/install/joy_teleop:/home/orin/f1tenth_ws/install/mouse_teleop:/home/orin/f1tenth_ws/install/key_teleop:/opt/ros/foxy NX_CONNECTION=192.168.156.102 37418 192.168.156.253 4000 /usr/bin/cmake --install /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/build/safety_node
