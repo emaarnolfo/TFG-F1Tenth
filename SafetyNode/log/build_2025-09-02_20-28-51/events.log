@@ -1,0 +1,199 @@
+[0.000000] (-) TimerEvent: {}
+[0.000606] (safety_node) JobQueued: {'identifier': 'safety_node', 'dependencies': OrderedDict()}
+[0.001163] (safety_node) JobStarted: {'identifier': 'safety_node'}
+[0.025533] (safety_node) JobProgress: {'identifier': 'safety_node', 'progress': 'cmake'}
+[0.027515] (safety_node) JobProgress: {'identifier': 'safety_node', 'progress': 'build'}
+[0.028930] (safety_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/build/safety_node', '--', '-j6', '-l6'], 'cwd': '/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/build/safety_node', 'env': OrderedDict([('NX_ROOT', '/home/orin/.nx'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PULSE_CLIENTCONFIG', '/home/orin/.nx/nxdevice/D-1001-956DF7AEC78E93E9C4AC19E4E83E8E72/audio/client.conf'), ('MAIL', '/var/mail/orin'), ('USER', 'orin'), ('XDG_SESSION_TYPE', 'x11'), ('NX_SYSTEM', '/usr/NX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin/f1tenth_ws/install/vesc_driver/lib:/home/orin/f1tenth_ws/install/vesc_ackermann/lib:/home/orin/f1tenth_ws/install/vesc_msgs/lib:/home/orin/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/f1tenth_ws'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ROS_IP', 'http://172.29.21.27'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-9xO8RMMdtL,guid=0770ba97315f7b0bb679ba1668b7207b'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/home/orin/.nx/nxdevice/D-1001-956DF7AEC78E93E9C4AC19E4E83E8E72/audio/default.pa'), ('COLCON_PREFIX_PATH', '/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install:/home/orin/f1tenth_ws/install:/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/f1tenth_lab2_template/safety_node/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin'), ('PULSE_SERVER', '/home/orin/.nx/nxdevice/D-1001-956DF7AEC78E93E9C4AC19E4E83E8E72/audio/native.socket'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/orin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/4977,unix/ubuntu:/tmp/.ICE-unix/4977'), ('PULSE_RUNTIME_PATH', '/run/user/1000/pulse'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8fd6ee07_183c_40d1_926d_aef79c5211ae'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('PULSE_CONFIG', '/home/orin/.nx/nxdevice/D-1001-956DF7AEC78E93E9C4AC19E4E83E8E72/audio/daemon.conf'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1001'), ('LD_PRELOAD', ''), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('NX_TEMP', '/tmp'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/home/orin/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node:/home/orin/f1tenth_ws/install/f1tenth_stack:/home/orin/f1tenth_ws/install/vesc:/home/orin/f1tenth_ws/install/vesc_driver:/home/orin/f1tenth_ws/install/vesc_ackermann:/home/orin/f1tenth_ws/install/vesc_msgs:/home/orin/f1tenth_ws/install/teleop_tools:/home/orin/f1tenth_ws/install/joy_teleop:/home/orin/f1tenth_ws/install/teleop_tools_msgs:/home/orin/f1tenth_ws/install/mouse_teleop:/home/orin/f1tenth_ws/install/key_teleop:/home/orin/f1tenth_ws/install/ackermann_mux:/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/f1tenth_lab2_template/safety_node/install/safety_node:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://172.29.21.27:4000'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NX_SESSION_ID', '956DF7AEC78E93E9C4AC19E4E83E8E72'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/build/safety_node'), ('NX_RUNNER', '/usr/NX/bin/nxrunner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/lib/python3.8/site-packages:/home/orin/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/orin/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/orin/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/orin/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/orin/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/orin/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/f1tenth_lab2_template/safety_node/install/safety_node/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node:/home/orin/f1tenth_ws/install/vesc:/home/orin/f1tenth_ws/install/vesc_driver:/home/orin/f1tenth_ws/install/vesc_ackermann:/home/orin/f1tenth_ws/install/vesc_msgs:/home/orin/f1tenth_ws/install/teleop_tools:/home/orin/f1tenth_ws/install/teleop_tools_msgs:/home/orin/f1tenth_ws/install/ackermann_mux:/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/f1tenth_lab2_template/safety_node/install/safety_node:/home/orin/f1tenth_ws/install/f1tenth_stack:/home/orin/f1tenth_ws/install/joy_teleop:/home/orin/f1tenth_ws/install/mouse_teleop:/home/orin/f1tenth_ws/install/key_teleop:/opt/ros/foxy'), ('NX_CONNECTION', '192.168.156.102 37418 192.168.156.253 4000'), ('NXDIR', '/usr/NX')]), 'shell': False}
+[0.099491] (-) TimerEvent: {}
+[0.134151] (safety_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target safety_node\x1b[0m\n'}
+[0.199646] (-) TimerEvent: {}
+[0.200803] (safety_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/safety_node.dir/src/safety_node.cpp.o\x1b[0m\n'}
+[0.299830] (-) TimerEvent: {}
+[0.400546] (-) TimerEvent: {}
+[0.501276] (-) TimerEvent: {}
+[0.602063] (-) TimerEvent: {}
+[0.702845] (-) TimerEvent: {}
+[0.803631] (-) TimerEvent: {}
+[0.904438] (-) TimerEvent: {}
+[1.005288] (-) TimerEvent: {}
+[1.106178] (-) TimerEvent: {}
+[1.207025] (-) TimerEvent: {}
+[1.307865] (-) TimerEvent: {}
+[1.408754] (-) TimerEvent: {}
+[1.509652] (-) TimerEvent: {}
+[1.610537] (-) TimerEvent: {}
+[1.711372] (-) TimerEvent: {}
+[1.812449] (-) TimerEvent: {}
+[1.913339] (-) TimerEvent: {}
+[2.014302] (-) TimerEvent: {}
+[2.115167] (-) TimerEvent: {}
+[2.215996] (-) TimerEvent: {}
+[2.316756] (-) TimerEvent: {}
+[2.417720] (-) TimerEvent: {}
+[2.518590] (-) TimerEvent: {}
+[2.619819] (-) TimerEvent: {}
+[2.720704] (-) TimerEvent: {}
+[2.821553] (-) TimerEvent: {}
+[2.922469] (-) TimerEvent: {}
+[3.023311] (-) TimerEvent: {}
+[3.124182] (-) TimerEvent: {}
+[3.164706] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/f1tenth_lab2_template/safety_node/src/safety_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Safety::drive_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.165543] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/f1tenth_lab2_template/safety_node/src/safety_node.cpp:49:71:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.165887] (safety_node) StderrLine: {'line': b'   49 |     void drive_callback(\x1b[01;35m\x1b[Kconst nav_msgs::msg::Odometry::ConstSharedPtr msg\x1b[m\x1b[K)\n'}
+[3.166635] (safety_node) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.187773] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/f1tenth_lab2_template/safety_node/src/safety_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Safety::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.188500] (safety_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/f1tenth_lab2_template/safety_node/src/safety_node.cpp:58:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kmin_distance\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[3.188837] (safety_node) StderrLine: {'line': b'   58 |         double \x1b[01;35m\x1b[Kmin_distance\x1b[m\x1b[K = scan_msg->range_max;\n'}
+[3.189142] (safety_node) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.224341] (-) TimerEvent: {}
+[3.325109] (-) TimerEvent: {}
+[3.425808] (-) TimerEvent: {}
+[3.526644] (-) TimerEvent: {}
+[3.627506] (-) TimerEvent: {}
+[3.728339] (-) TimerEvent: {}
+[3.829083] (-) TimerEvent: {}
+[3.929964] (-) TimerEvent: {}
+[4.030810] (-) TimerEvent: {}
+[4.131555] (-) TimerEvent: {}
+[4.232403] (-) TimerEvent: {}
+[4.333121] (-) TimerEvent: {}
+[4.433889] (-) TimerEvent: {}
+[4.534748] (-) TimerEvent: {}
+[4.635596] (-) TimerEvent: {}
+[4.736464] (-) TimerEvent: {}
+[4.837371] (-) TimerEvent: {}
+[4.938245] (-) TimerEvent: {}
+[5.039077] (-) TimerEvent: {}
+[5.139865] (-) TimerEvent: {}
+[5.240724] (-) TimerEvent: {}
+[5.341569] (-) TimerEvent: {}
+[5.442366] (-) TimerEvent: {}
+[5.543127] (-) TimerEvent: {}
+[5.644044] (-) TimerEvent: {}
+[5.744886] (-) TimerEvent: {}
+[5.845762] (-) TimerEvent: {}
+[5.946708] (-) TimerEvent: {}
+[6.047651] (-) TimerEvent: {}
+[6.148490] (-) TimerEvent: {}
+[6.249248] (-) TimerEvent: {}
+[6.350123] (-) TimerEvent: {}
+[6.450975] (-) TimerEvent: {}
+[6.551992] (-) TimerEvent: {}
+[6.652860] (-) TimerEvent: {}
+[6.753717] (-) TimerEvent: {}
+[6.854565] (-) TimerEvent: {}
+[6.955323] (-) TimerEvent: {}
+[7.056179] (-) TimerEvent: {}
+[7.157046] (-) TimerEvent: {}
+[7.257928] (-) TimerEvent: {}
+[7.358863] (-) TimerEvent: {}
+[7.459721] (-) TimerEvent: {}
+[7.560532] (-) TimerEvent: {}
+[7.661299] (-) TimerEvent: {}
+[7.762191] (-) TimerEvent: {}
+[7.863032] (-) TimerEvent: {}
+[7.963873] (-) TimerEvent: {}
+[8.064740] (-) TimerEvent: {}
+[8.165586] (-) TimerEvent: {}
+[8.266576] (-) TimerEvent: {}
+[8.367401] (-) TimerEvent: {}
+[8.468253] (-) TimerEvent: {}
+[8.569070] (-) TimerEvent: {}
+[8.669793] (-) TimerEvent: {}
+[8.770669] (-) TimerEvent: {}
+[8.871535] (-) TimerEvent: {}
+[8.972768] (-) TimerEvent: {}
+[9.073617] (-) TimerEvent: {}
+[9.174494] (-) TimerEvent: {}
+[9.275313] (-) TimerEvent: {}
+[9.376039] (-) TimerEvent: {}
+[9.476881] (-) TimerEvent: {}
+[9.577726] (-) TimerEvent: {}
+[9.678619] (-) TimerEvent: {}
+[9.779365] (-) TimerEvent: {}
+[9.880206] (-) TimerEvent: {}
+[9.981042] (-) TimerEvent: {}
+[10.081898] (-) TimerEvent: {}
+[10.182743] (-) TimerEvent: {}
+[10.283572] (-) TimerEvent: {}
+[10.384404] (-) TimerEvent: {}
+[10.485244] (-) TimerEvent: {}
+[10.586204] (-) TimerEvent: {}
+[10.687244] (-) TimerEvent: {}
+[10.788065] (-) TimerEvent: {}
+[10.888901] (-) TimerEvent: {}
+[10.989747] (-) TimerEvent: {}
+[11.090630] (-) TimerEvent: {}
+[11.191447] (-) TimerEvent: {}
+[11.292295] (-) TimerEvent: {}
+[11.393138] (-) TimerEvent: {}
+[11.493985] (-) TimerEvent: {}
+[11.594835] (-) TimerEvent: {}
+[11.695685] (-) TimerEvent: {}
+[11.796522] (-) TimerEvent: {}
+[11.897363] (-) TimerEvent: {}
+[11.998221] (-) TimerEvent: {}
+[12.099059] (-) TimerEvent: {}
+[12.199885] (-) TimerEvent: {}
+[12.300732] (-) TimerEvent: {}
+[12.401588] (-) TimerEvent: {}
+[12.502447] (-) TimerEvent: {}
+[12.603288] (-) TimerEvent: {}
+[12.704142] (-) TimerEvent: {}
+[12.804989] (-) TimerEvent: {}
+[12.905840] (-) TimerEvent: {}
+[13.006696] (-) TimerEvent: {}
+[13.107512] (-) TimerEvent: {}
+[13.208328] (-) TimerEvent: {}
+[13.309167] (-) TimerEvent: {}
+[13.409958] (-) TimerEvent: {}
+[13.510665] (-) TimerEvent: {}
+[13.611342] (-) TimerEvent: {}
+[13.712044] (-) TimerEvent: {}
+[13.812739] (-) TimerEvent: {}
+[13.913428] (-) TimerEvent: {}
+[14.014133] (-) TimerEvent: {}
+[14.114822] (-) TimerEvent: {}
+[14.215514] (-) TimerEvent: {}
+[14.316242] (-) TimerEvent: {}
+[14.415507] (safety_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable safety_node\x1b[0m\n'}
+[14.416301] (-) TimerEvent: {}
+[14.516805] (-) TimerEvent: {}
+[14.617570] (-) TimerEvent: {}
+[14.718345] (-) TimerEvent: {}
+[14.819038] (-) TimerEvent: {}
+[14.919759] (-) TimerEvent: {}
+[15.020500] (-) TimerEvent: {}
+[15.061820] (safety_node) StdoutLine: {'line': b'[100%] Built target safety_node\n'}
+[15.088242] (safety_node) CommandEnded: {'returncode': 0}
+[15.091115] (safety_node) JobProgress: {'identifier': 'safety_node', 'progress': 'install'}
+[15.117481] (safety_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/build/safety_node'], 'cwd': '/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/build/safety_node', 'env': OrderedDict([('NX_ROOT', '/home/orin/.nx'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PULSE_CLIENTCONFIG', '/home/orin/.nx/nxdevice/D-1001-956DF7AEC78E93E9C4AC19E4E83E8E72/audio/client.conf'), ('MAIL', '/var/mail/orin'), ('USER', 'orin'), ('XDG_SESSION_TYPE', 'x11'), ('NX_SYSTEM', '/usr/NX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orin/f1tenth_ws/install/vesc_driver/lib:/home/orin/f1tenth_ws/install/vesc_ackermann/lib:/home/orin/f1tenth_ws/install/vesc_msgs/lib:/home/orin/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/orin'), ('OLDPWD', '/home/orin/f1tenth_ws'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ROS_IP', 'http://172.29.21.27'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-9xO8RMMdtL,guid=0770ba97315f7b0bb679ba1668b7207b'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/home/orin/.nx/nxdevice/D-1001-956DF7AEC78E93E9C4AC19E4E83E8E72/audio/default.pa'), ('COLCON_PREFIX_PATH', '/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install:/home/orin/f1tenth_ws/install:/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/f1tenth_lab2_template/safety_node/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orin'), ('PULSE_SERVER', '/home/orin/.nx/nxdevice/D-1001-956DF7AEC78E93E9C4AC19E4E83E8E72/audio/native.socket'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/orin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/4977,unix/ubuntu:/tmp/.ICE-unix/4977'), ('PULSE_RUNTIME_PATH', '/run/user/1000/pulse'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8fd6ee07_183c_40d1_926d_aef79c5211ae'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('PULSE_CONFIG', '/home/orin/.nx/nxdevice/D-1001-956DF7AEC78E93E9C4AC19E4E83E8E72/audio/daemon.conf'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1001'), ('LD_PRELOAD', ''), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('NX_TEMP', '/tmp'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/home/orin/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.78'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node:/home/orin/f1tenth_ws/install/f1tenth_stack:/home/orin/f1tenth_ws/install/vesc:/home/orin/f1tenth_ws/install/vesc_driver:/home/orin/f1tenth_ws/install/vesc_ackermann:/home/orin/f1tenth_ws/install/vesc_msgs:/home/orin/f1tenth_ws/install/teleop_tools:/home/orin/f1tenth_ws/install/joy_teleop:/home/orin/f1tenth_ws/install/teleop_tools_msgs:/home/orin/f1tenth_ws/install/mouse_teleop:/home/orin/f1tenth_ws/install/key_teleop:/home/orin/f1tenth_ws/install/ackermann_mux:/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/f1tenth_lab2_template/safety_node/install/safety_node:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://172.29.21.27:4000'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NX_SESSION_ID', '956DF7AEC78E93E9C4AC19E4E83E8E72'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/build/safety_node'), ('NX_RUNNER', '/usr/NX/bin/nxrunner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/lib/python3.8/site-packages:/home/orin/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/orin/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/orin/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/orin/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/orin/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/orin/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/f1tenth_lab2_template/safety_node/install/safety_node/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node:/home/orin/f1tenth_ws/install/vesc:/home/orin/f1tenth_ws/install/vesc_driver:/home/orin/f1tenth_ws/install/vesc_ackermann:/home/orin/f1tenth_ws/install/vesc_msgs:/home/orin/f1tenth_ws/install/teleop_tools:/home/orin/f1tenth_ws/install/teleop_tools_msgs:/home/orin/f1tenth_ws/install/ackermann_mux:/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/f1tenth_lab2_template/safety_node/install/safety_node:/home/orin/f1tenth_ws/install/f1tenth_stack:/home/orin/f1tenth_ws/install/joy_teleop:/home/orin/f1tenth_ws/install/mouse_teleop:/home/orin/f1tenth_ws/install/key_teleop:/opt/ros/foxy'), ('NX_CONNECTION', '192.168.156.102 37418 192.168.156.253 4000'), ('NXDIR', '/usr/NX')]), 'shell': False}
+[15.124433] (-) TimerEvent: {}
+[15.143321] (safety_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.144017] (safety_node) StdoutLine: {'line': b'-- Installing: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/lib/safety_node/safety_node\n'}
+[15.153202] (safety_node) StdoutLine: {'line': b'-- Set runtime path of "/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/lib/safety_node/safety_node" to ""\n'}
+[15.153907] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/environment/pythonpath.sh\n'}
+[15.154186] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/environment/pythonpath.dsv\n'}
+[15.154376] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/lib/python3.8/site-packages/safety_node\n'}
+[15.154537] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/lib/python3.8/site-packages/safety_node/__init__.py\n'}
+[15.217349] (safety_node) StdoutLine: {'line': b"Listing '/home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/lib/python3.8/site-packages/safety_node'...\n"}
+[15.224560] (-) TimerEvent: {}
+[15.226768] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/lib/safety_node/safety_node.py\n'}
+[15.227204] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/ament_index/resource_index/package_run_dependencies/safety_node\n'}
+[15.227453] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/ament_index/resource_index/parent_prefix_path/safety_node\n'}
+[15.227702] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/environment/ament_prefix_path.sh\n'}
+[15.227919] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/environment/ament_prefix_path.dsv\n'}
+[15.228071] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/environment/path.sh\n'}
+[15.228329] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/environment/path.dsv\n'}
+[15.228509] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/local_setup.bash\n'}
+[15.228702] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/local_setup.sh\n'}
+[15.228853] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/local_setup.zsh\n'}
+[15.228995] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/local_setup.dsv\n'}
+[15.229153] (safety_node) StdoutLine: {'line': b'-- Installing: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/package.dsv\n'}
+[15.229314] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/ament_index/resource_index/packages/safety_node\n'}
+[15.229527] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/cmake/safety_nodeConfig.cmake\n'}
+[15.229670] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/cmake/safety_nodeConfig-version.cmake\n'}
+[15.229807] (safety_node) StdoutLine: {'line': b'-- Up-to-date: /home/orin/f1tenth_ws/lab2-AutomaticEmergencyBreaking/install/safety_node/share/safety_node/package.xml\n'}
+[15.233719] (safety_node) CommandEnded: {'returncode': 0}
+[15.291443] (safety_node) JobEnded: {'identifier': 'safety_node', 'rc': 0}
+[15.293258] (-) EventReactorShutdown: {}
